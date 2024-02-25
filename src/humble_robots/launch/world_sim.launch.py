@@ -38,7 +38,7 @@ def generate_launch_description():
         [get_package_share_directory('ros_gz_sim'), 'launch', 'gz_sim.launch.py'])
 
     gui_config = PathJoinSubstitution(
-        [get_package_share_directory('clearpath_gz'), 'config', 'gui.config'])
+        [get_package_share_directory('humble_robots'), 'config', 'husky', 'gui.config'])
 
     # Gazebo Simulator
     gz_sim = IncludeLaunchDescription(
