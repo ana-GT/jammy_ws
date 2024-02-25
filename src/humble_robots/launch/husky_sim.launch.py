@@ -45,7 +45,7 @@ def generate_launch_description():
         PythonLaunchDescriptionSource([robot_spawn_launch]),
         launch_arguments=[
             ('use_sim_time', LaunchConfiguration('use_sim_time')),
-            ('setup_path', setup_path,
+            ('setup_path', setup_path),
             ('rviz', LaunchConfiguration('rviz')),
             ('x', LaunchConfiguration('x')),
             ('y', LaunchConfiguration('y')),
